@@ -26,7 +26,7 @@ Replace the text in the AHK sourcecode with a function-call to lang("text").
 The language is automatically selected or can be selected by the function "langSetLanguage(paramCode)".  
 "paramCode" is the language-code, like "en-US".  
   
-There are some builtin functions to convert between  
+There are two builtin functions to convert between  
 the language-code (hex) or the (english) language-name to the language-code,  
 take a look at the file "demo preselect2.ahk".  
 ("_languageHexToCode ", "_languageNameToCode")
