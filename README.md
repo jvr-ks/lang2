@@ -42,12 +42,11 @@ to translate the text.
 Please see the introduction in the demonstration files:  
 * demo miminum2.ahk  
 * demo preselect2.ahk  
-  
-  
-  
+    
   
 "settings.ini" is not used, "lang crawler" and the "Translation tool" are not converted yet.  
   
+
 TODO:  
 * 
 * A way to escape the "="-character  
@@ -56,9 +55,9 @@ TODO:
 Version (&gt;=)| Change  
 ------------ | -------------  
 0.06 | Creating an "en-US.ini" file, if the file is missing.  
-0.004 | Creating an "\*.ini" file using "en-US.ini" as a prototype, if the current used language is unknown.  
-0.003 | Using current selected language, not the system default language!  
-0.002 | language: using an object literal instead of a Map  
+0.04 | Creating an "\*.ini" file using "en-US.ini" as a prototype, if the current used language is unknown.  
+0.03 | Using current selected language, not the system default language!  
+0.02 | language: using an object literal instead of a Map  
   
 
 
