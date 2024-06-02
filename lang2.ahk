@@ -25,7 +25,7 @@ YourAHK.ahk
 #Requires AutoHotkey v2
 
 appName := "lang2"
-appVersion := "0.06"
+appVersion := "0.07"
 
 msg := "Use language\language.ahk as a library (#Include `"language\language.ahk`")`n`n"
 msg .= "Or run the demo `"demo miminum2.ahk`" or demo `"preselect2.ahk`""

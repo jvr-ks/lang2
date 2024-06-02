@@ -18,8 +18,14 @@ Just add to the AHK sourcecode:
 ```  
 #Include "language\language.ahk"
 
-checkLanguageFiles() ; check if the language files exist (at least "en-US.ini"), create them if missing
-lang_init() ; language initialization function
+checkLanguageFiles() ; checks if the language files exists (at least "en-US.ini"), create them if missing
+lang_init() ; language initialization function with system language (language used during the Windows installation)
+
+; create a gui window and then:
+
+lang_init() ; call init again to switch to the selected language, 
+            ; only necessary if another language was selected during Windows runtime 
+
 ``` 
   
 The subdirectory "language" must contain the language-files (i.e. "en-US.ini" etc.).  
