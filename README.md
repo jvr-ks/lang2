@@ -44,9 +44,9 @@ a definition file like "ab-XY.ini" is created using "en-US.ini" as a prototyp.
 At least a hardcoded "en-US.ini" file definition must be created by the builtin function:   
 **checkLanguageFiles()**  
   
-Hint:  
-Use [https://github.com/jvr-ks/simpletools#TranslateViaGoogle2](https://github.com/jvr-ks/simpletools#TranslateViaGoogle2)   
-to translate the text.  
+Hints:  
+* Use [https://github.com/jvr-ks/simpletools#TranslateViaGoogle2](https://github.com/jvr-ks/simpletools#TranslateViaGoogle2) to translate the text.  
+* More about [languages used in Windows](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-input-locales-for-windows-language-packs?view=windows-11)  
   
 Please see the introduction in the demonstration files:  
 * demo miminum2.ahk  
